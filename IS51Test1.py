@@ -11,3 +11,29 @@ Then, if option one is higher print "Option1 is better" to the console
 Else print "Option2 is better"
 end
 """
+"""Pseudo-code
+start
+option1(100)
+option2(1)
+define option1(option1)
+    option1 * 10
+    return option1
+define option2(option2)
+    count = 0
+    indexTotal = 10
+    while count is less than index total
+        option2 *=2
+        count += 1
+    subtract 1 from total option2-1
+    return option2
+var1 = option1(100)
+var2 = option2(1)
+define compairTotals()
+    if option1 is equal to option two
+        print "Option1 and option2 pays the same"
+    If option1 is greater than option2
+        print "Option1 is better"
+    Else
+        print "Option2 is better"
+end
+"""
