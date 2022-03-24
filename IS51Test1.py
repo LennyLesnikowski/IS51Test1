@@ -35,5 +35,30 @@ define compairTotals()
         print "Option1 is better"
     Else
         print "Option2 is better"
+compairTotals()
 end
 """
+
+def option1(option1):
+    option1 *= 10
+    return option1
+def option2(option2):
+    count = 0
+    total = 10
+    while count < total:
+        option2 *= 2
+        count += 1
+    option2 -=1
+    return option2
+var1 = option1(100)
+var2 = option2(1)
+def compairTotals():
+    if var1==var2:
+        print("Option 1 and Option 2 pays the same")
+    if var1 > var2:
+        difference = var1 - var2
+        print("Option 1 is better")
+    else:
+        difference = var2 - var1
+        print("Option 2 is better")
+compairTotals()
